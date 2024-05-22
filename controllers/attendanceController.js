@@ -1,7 +1,7 @@
 const Attendance = require('../models/attendanceModel');
 const Employee = require('../models/employeeModel');
 
-
+hello haroon
 const getAllAttendance = async (req, res) => {
   try {
     const employeeDetails = await Employee.find();
