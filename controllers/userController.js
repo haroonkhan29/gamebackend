@@ -162,6 +162,7 @@ const loginUser = async (req, res) => {
     res.status(500).json({ error: 'Internal Server Error' });
   }
 };
+
 const deleteUser = async (req, res) => {
   const userId = req.params.id;
 
