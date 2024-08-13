@@ -26,7 +26,7 @@ app.use(cors());
 app.use(bodyParser.json());
 app.use(express.static('public'));
 
-mongoose.connect('mongodb://127.0.0.1:27017/gamestudio', { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect('mongodb+srv://haroon77afridi:UEYt6THQyjrTn4fL@cluster3.m6v5i.mongodb.net/gamestudio', { useNewUrlParser: true, useUnifiedTopology: true });
 app.use('/bank', bankRoutes);
 app.use('/employee', employeeRoutes);
 app.use('/attendance', attendanceRoutes);
